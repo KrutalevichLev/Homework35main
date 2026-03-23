@@ -1,7 +1,7 @@
 #include "logic.h"
 
 int rand_dice() {
-	return rand() % 6 + 1;
+	return rand() % NUMBER_OF_FACES + 1;
 }
 
 int sum_of_2_dice() {
